@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# MLflow generated files and databases
+mlruns/
+mlartifacts/
+mlflow.db
+*.sqlite
+*.sqlite3
+
+# Temporary and backup files
+*.tmp
+*.log
+*.save
+
+# Locally generated model files
+*.pkl
+*.joblib
